@@ -38,6 +38,15 @@ export default [
     }
   },
   {
+    title: "Paint",
+    icon: icons.paint32,
+    component: "IframeWindow",
+    data: {
+      src: "https://jspaint.app/", creator: "https://github.com/1j01" 
+    },
+    multiInstance: true
+  },
+  {
     title: "README",
     icon: icons.htmlFile32,
     component: "InternetExplorer",
