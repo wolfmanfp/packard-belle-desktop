@@ -12,7 +12,6 @@ const setKeyValue = (dis, key) => val => {
 class SettingsProvider extends Component {
   state = {
     scale: 1,
-    crt: true,
     fullScreen: false,
     isMobile: false,
     bgImg:
@@ -22,7 +21,6 @@ class SettingsProvider extends Component {
     bgStyle: (window && window.localStorage.getItem("bgStyle")) || "stretch"
   };
 
-  toggleCrt = toggle(this, "crt");
   toggleFullScreen = toggle(this, "fullScreen");
   toggleMobile = toggle(this, "isMobile");
   changeScale = setKeyValue(this, "scale");
@@ -61,7 +59,6 @@ class SettingsProvider extends Component {
   render() {
     const {
       changeScale,
-      toggleCrt,
       toggleFullScreen,
       toggleMobile,
       updateLocalStorage,
@@ -70,7 +67,6 @@ class SettingsProvider extends Component {
     const context = {
       ...this.state,
       changeScale,
-      toggleCrt,
       toggleFullScreen,
       toggleMobile,
       updateLocalStorage,
