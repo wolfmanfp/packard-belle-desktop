@@ -1,5 +1,4 @@
 import * as icons from "../icons";
-import resume from "./textFiles/resume";
 import readme from "./textFiles/readme";
 
 export default [
@@ -44,15 +43,6 @@ export default [
     component: "InternetExplorer",
     data: {
       __html: readme
-    }
-  },
-  {
-    title: "Resume draft 31 final last 2019 may final 1",
-    icon: icons.notepadFile32,
-    component: "Notepad",
-    data: {
-      content: resume,
-      readOnly: true
     }
   }
 ];
