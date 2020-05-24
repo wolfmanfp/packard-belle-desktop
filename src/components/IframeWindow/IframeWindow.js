@@ -31,8 +31,8 @@ class IFrame extends Component {
         >
           {props.data.disclaimer || (
             <div>
-              The following is an iframe, content belongs to{" "}
-              {props.data.creator || "the original creator"} at
+              The following is an iframe, content belongs to {" "}
+              {props.data.creator || "the original creator"} at {" "}
               <a
                 href={props.data.src}
                 target="_blank"
