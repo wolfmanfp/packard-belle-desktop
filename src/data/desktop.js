@@ -47,6 +47,12 @@ export default [
     multiInstance: true
   },
   {
+    title: "Winamp",
+    icon: icons.run24,
+    component: "Winamp",
+    data: {}
+  },
+  {
     title: "README",
     icon: icons.htmlFile32,
     component: "InternetExplorer",
