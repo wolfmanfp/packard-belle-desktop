@@ -6,7 +6,7 @@ import { shutDown24 } from "../../icons";
 
 import "./_styles.scss";
 
-const OPTIONS = ["Shut Down", "Restart", "That third option I forget"];
+const OPTIONS = ["Shut Down", "Restart", "Restart in MS-DOS mode"];
 
 class ShutDown extends Component {
   static contextType = ProgramContext;

@@ -11,8 +11,7 @@ const config = {
         artist: "DJ Mike Llama",
         title: "Llama Whippin' Intro",
       },
-      // Can be downloaded from: https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3
-      url: "https://github.com/captbaritone/webamp/raw/master/mp3/llama-2.91.mp3",
+      url: "https://github.com/captbaritone/webamp/raw/master/packages/webamp/demo/mp3/llama-2.91.mp3",
     },
   ],
 };

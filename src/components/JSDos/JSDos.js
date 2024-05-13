@@ -7,7 +7,7 @@ import { msDos16 } from "../../icons";
 import buildMenu from "../../helpers/menuBuilder";
 import "./_styles.scss";
 
-const lineStart = "C:\\WINDOWNS>";
+const lineStart = "C:\\WINDOWS>";
 
 class JSDos extends Component {
   state = {

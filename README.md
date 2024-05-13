@@ -53,33 +53,32 @@ The answer is probably Start -> Settings -> Control Panel
 - [x] Improved mobile operations (but can be improved further)
 - [x] writable features via local storage (desktop only atm)
 - [ ] documentation of states
-- [ ] optimised bundles of this exported and the component library
-- [ ] cypress testing of core features
+- ~~[ ] optimised bundles of this exported and the component library~~
+- ~~[ ] cypress testing of core features~~
 - [ ] refactoring (renaming to match purposes better, reducing prop passing)
-- [ ] save to other directories
+- ~~[ ] save to other directories~~
 
 ## Novel stuff
 
 - [x] Semi-working My Computer folder (e.g. contains a floppy disc icon that freezes the whole machine for 10 seconds before saying no floppy is inserted)
-- [ ] Blue screen on all crashes
+- ~~[ ] Blue screen on all crashes~~
 - [ ] minesweeper difficulty options
-- [ ] Napster simulator (I've never actually used Napster so if you have then this will suck)
+- ~~[ ] Napster simulator (I've never actually used Napster so if you have then this will suck)~~
 - [ ] Images viewer, images folder
 - [ ] An actual working minesweeper (seems like an easy afternoon job?), separate component package
 - [ ] collection of easy additional components to write (e.g. calculator)
 - [ ] IE Naviagtion works for pages on same site and dangerously inserted innerHTML
 - [ ] Save other file types (write HTML files in notepad for IE4?)
-- [ ] windows XP skin (should be pretty doable and able to be its own CSS file with how the componets are written)
+- ~~[ ] windows XP skin (should be pretty doable and able to be its own CSS file with how the componets are written)~~
 
 ## Proof of concepts
 
-- [ ] exportable as a single lightly modifiable component
-- [ ] one multiwindow app that runs in background (AIM?)
-- [ ] simple user accounts
-- [ ] server communications
-- [ ] server side rendering is more feasible (usage of window currently makes that hard)
-- [ ] writable features communicate with server (allowing users to log in)
-
+- ~~[ ] exportable as a single lightly modifiable component~~
+- ~~[ ] one multiwindow app that runs in background (AIM?)~~
+- ~~[ ] simple user accounts~~
+- ~~[ ] server communications~~
+- ~~[ ] server side rendering is more feasible (usage of window currently makes that hard)~~
+- ~~[ ] writable features communicate with server (allowing users to log in)~~
 If you'd like me to focus on any of these please consider donating https://www.buymeacoffee.com/padraig I will give most of this away to charity if anyone actually does donate. If you'd like to add them yourself I'd love to help make it happen!
 
 # Logging Hacks
@@ -96,6 +95,5 @@ Internet Explorer is a mess now and whenever I get around to it it'll need docum
 - https://github.com/1000hz/winmine-exe for an amazing version of MSSansSerif
 - https://github.com/ShizukuIchi/ for reminding me to finish this thing after seeing his great XP one
 - https://int10h.org/oldschool-pc-fonts/fontlist/ for the boot screen font
-- https://codepen.io/lbebber/pen/XJRdrV for that great CRT effect
 - https://basicallydan.github.io/skifree.js/ for skifree
 - all the people I've forgotten

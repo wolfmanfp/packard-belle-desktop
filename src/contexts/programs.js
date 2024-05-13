@@ -177,7 +177,6 @@ class ProgramProvider extends Component {
         startMenu(
           this.props.startMenuData,
           [
-            { title: "Ctrl+Alt+Del", onClick: () => this.toggleTaskManager() },
             {
               title: "Control Panel",
               onClick: () => this.toggleSettings(),

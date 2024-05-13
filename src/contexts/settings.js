@@ -17,7 +17,7 @@ class SettingsProvider extends Component {
     bgImg:
       (window && window.localStorage.getItem("bgImg")) ||
       (window && !window.localStorage.getItem("loggedIn")),
-    bgColor: (window && window.localStorage.getItem("bgColor")) || "#fff",
+    bgColor: (window && window.localStorage.getItem("bgColor")) || "#5f9ea0",
     bgStyle: (window && window.localStorage.getItem("bgStyle")) || "stretch"
   };
 
