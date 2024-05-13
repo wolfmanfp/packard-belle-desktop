@@ -1,5 +1,4 @@
 import * as icons from "../icons";
-import resume from "./textFiles/resume";
 import readme from "./textFiles/readme";
 
 const desktopData = [
@@ -10,23 +9,6 @@ const desktopData = [
     data: {
       content: [
         {
-          title: "(C:)",
-          icon: "cd32",
-          failState: {
-            message:
-              "This is a React App, there is no CD drive, your laptop probably doesn't have one either",
-            loadTime: 4000
-          }
-        },
-        {
-          title: "(D:)",
-          icon: "hdd32",
-          failState: {
-            message: "This is a React App, there is no hard drive",
-            loadTime: 1000
-          }
-        },
-        {
           title: "3 1/2 Floppy (A:)",
           icon: "floppy32",
           failState: {
@@ -34,9 +16,41 @@ const desktopData = [
               "Did everyone else's computer take ages to load the 'no floppy disc inserted' message or was that just mine?",
             loadTime: 8000
           }
+        },
+        {
+          title: "(C:)",
+          icon: "hdd32",
+          failState: {
+            message: "This is a React App, there is no hard drive.",
+            loadTime: 1000
+          }
+        },
+        {
+          title: "(D:)",
+          icon: "cd32",
+          failState: {
+            message:
+              "This is a React App, there is no CD drive, your laptop probably doesn't have one either.",
+            loadTime: 4000
+          }
         }
       ]
     }
+  },
+  {
+    title: "Paint",
+    icon: icons.paint32,
+    component: "IframeWindow",
+    data: {
+      src: "https://jspaint.app/", creator: "https://github.com/1j01" 
+    },
+    multiInstance: true
+  },
+  {
+    title: "Winamp",
+    icon: icons.run24,
+    component: "Winamp",
+    data: {}
   },
   {
     title: "README",
@@ -44,15 +58,6 @@ const desktopData = [
     component: "InternetExplorer",
     data: {
       __html: readme
-    }
-  },
-  {
-    title: "Resume draft 31 final last 2019 may final 1",
-    icon: icons.notepadFile32,
-    component: "Notepad",
-    data: {
-      content: resume,
-      readOnly: true
     }
   }
 ];

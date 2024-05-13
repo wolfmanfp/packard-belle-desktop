@@ -12,7 +12,8 @@
     "react-rnd": "^10.0.0",
     "react-scripts": "^5.0.1",
     "safe-eval": "^0.4.1",
-    "vm": "^0.1.0"
+    "vm": "^0.1.0",
+    "webamp": "^1.4.1-beta01"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import bgImg from "../data/images/pbbg.jpg";
 import { SettingsContext } from ".";
 
 const toggle = (dis, key) => () => {
@@ -13,17 +12,15 @@ const setKeyValue = (dis, key) => val => {
 class SettingsProvider extends Component {
   state = {
     scale: 1,
-    crt: true,
     fullScreen: false,
     isMobile: false,
     bgImg:
       (window && window.localStorage.getItem("bgImg")) ||
-      (window && !window.localStorage.getItem("loggedIn") && bgImg),
+      (window && !window.localStorage.getItem("loggedIn")),
     bgColor: (window && window.localStorage.getItem("bgColor")) || "#fff",
     bgStyle: (window && window.localStorage.getItem("bgStyle")) || "stretch"
   };
 
-  toggleCrt = toggle(this, "crt");
   toggleFullScreen = toggle(this, "fullScreen");
   toggleMobile = toggle(this, "isMobile");
   changeScale = setKeyValue(this, "scale");
@@ -62,7 +59,6 @@ class SettingsProvider extends Component {
   render() {
     const {
       changeScale,
-      toggleCrt,
       toggleFullScreen,
       toggleMobile,
       updateLocalStorage,
@@ -71,7 +67,6 @@ class SettingsProvider extends Component {
     const context = {
       ...this.state,
       changeScale,
-      toggleCrt,
       toggleFullScreen,
       toggleMobile,
       updateLocalStorage,

@@ -54,7 +54,7 @@ class Settings extends Component {
   };
 
   updateBackground = () => {
-    // TODO accept valid html color
+    // TODO színválasztó
     if (this.state.bgColor.match(/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/)) {
       this.context.updateLocalStorage("bgColor", this.state.bgColor);
     }
@@ -144,29 +144,6 @@ class Settings extends Component {
               onMaximize={null}
               isActive
             >
-              <DetailsSection>
-                Best avoid all these other than CRT on mobile
-              </DetailsSection>
-              <DetailsSection title="Customise">
-                <Checkbox
-                  id="Mobile Portrait View"
-                  label="Mobile Portrait View"
-                  onChange={context.toggleMobile}
-                  checked={context.isMobile === true}
-                />
-                <Checkbox
-                  id="CRT Effect"
-                  label="CRT Effect"
-                  onChange={context.toggleCrt}
-                  checked={context.crt === true}
-                />
-                <Checkbox
-                  id="Fullscreen"
-                  label="Fullscreen"
-                  onChange={context.toggleFullScreen}
-                  checked={context.fullScreen === true}
-                />
-              </DetailsSection>
               {!context.isMobile && (
                 <DetailsSection title="Scale Options (Confirmation Prompt)">
                   <div className="options-row">
