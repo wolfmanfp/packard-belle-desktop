@@ -7,7 +7,6 @@ import WindowManager from "./components/WindowManager";
 import ProgramProvider from "./contexts/programs";
 import SettingsProvider from "./contexts/settings";
 import { SettingsContext } from "./contexts";
-import TaskManager from "./components/TaskManager";
 import DesktopView from "./components/DesktopView";
 import Settings from "./components/Settings";
 import ShutDown from "./components/ShutDown/ShutDown";
@@ -38,7 +37,6 @@ class Desktop extends Component {
           <DesktopView />
           <TaskBar />
           <WindowManager />
-          <TaskManager />
           <Settings />
           <ShutDown />
         </Theme>
