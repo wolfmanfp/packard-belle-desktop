@@ -53,6 +53,18 @@ const desktopData = [
     data: {}
   },
   {
+    title: "Vindóz PX",
+    icon: icons.computer32,
+    component: "IframeWindow",
+    data: {
+      src: "https://view.officeapps.live.com/op/embed.aspx?src=https://people.inf.elte.hu/szlavi/Egyebek/Windowspar_dia.pps", 
+      creator: "Hallgat Ádám",
+      width: 640,
+      height: 530
+    },
+    multiInstance: false,
+  },
+  {
     title: "README",
     icon: icons.htmlFile32,
     component: "InternetExplorer",
